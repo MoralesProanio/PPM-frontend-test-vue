@@ -1,0 +1,40 @@
+.full-width{
+    width: 100%;
+}
+.small-card{
+    min-width: 25rem;
+    max-width: 25rem;
+    max-height: 28rem;
+    margin-top: 4vh;
+}
+.bottom-footer{
+    position: absolute;
+    bottom: 0px;
+    max-height: 250px;
+
+}
+.small-img{
+    max-height: 200px;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("https://th.bing.com/th/id/R.b3a053d772474c0a60c0c909d41c5553?rik=7qhJo4wb7zXLzw&pid=ImgRaw&r=0");
+    margin-top: -21px;
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    margin-bottom: 5px;
+    height: 100vh;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
