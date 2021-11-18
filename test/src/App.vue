@@ -1,16 +1,18 @@
 <template>
-    <div v-if="$store.state.welcome">
-      <img class="full-width" src="./assets/images/welcome.jpg" alt="welcome">
-    </div>
-    <div v-else>
-      <router-view></router-view>
-    </div>
+  <div class="bg-img">
+    <Header></Header>
+    <router-view></router-view>
+  </div>
 </template>
 <script>
+import Header from "@/components/Header";
 export default {
   name: 'App',
+  components:{
+    Header
+  },
   data: () => ({
-    delay: 4000
+    delay: 3000
   }),
   methods: {
     giveWelcome: function (store) {
